@@ -23,3 +23,7 @@
 - Put the path of the image you want to run this program on in the file CircleDetection.py
 - Results:
 ![alt text](https://github.com/ParamjitBaweja/OpenCV-Python/blob/main/CircleDetection.png?raw=true)
+
+### Create dataset
+- The program CreateDataset.py was designed to extract the faces from multiple frames of the video feed from the webcam of your laptop
+- You can change the video input source and use the same
