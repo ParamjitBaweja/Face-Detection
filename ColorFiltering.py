@@ -6,7 +6,7 @@ import cv2
 image_name="cones"
 
 print("reading image from file")
-img=cv2.imread("/home/paramjit/catkin_ws/src/opencv_ros/src/ColourFiltering/cones.jpg")
+img=cv2.imread("<path>/cones.jpg")
 print(img)
 cv2.imshow("rgbimage",img)
 
