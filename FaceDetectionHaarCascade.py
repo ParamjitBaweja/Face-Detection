@@ -8,9 +8,9 @@ import time
 def convertToRGB(img):
     return cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
-haar_face_cascade = cv2.CascadeClassifier('/home/paramjit/catkin_ws/src/opencv_ros/src/KeypointDetection/haarcascade_frontalface_alt.xml')
+haar_face_cascade = cv2.CascadeClassifier('<path>/haarcascade_frontalface_alt.xml')
 
-test1 = cv2.imread("/home/paramjit/catkin_ws/src/opencv_ros/src/test1.jpg")
+test1 = cv2.imread("<path>/test1.jpg")
 gray_img = cv2.cvtColor(test1, cv2.COLOR_BGR2GRAY)
 cv2.imshow('Test Imag', gray_img)
 
